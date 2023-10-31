@@ -1,0 +1,13 @@
+[MASTER]
+ignore=tests
+
+[FORMAT]
+max-line-length=160
+good-names=dx,dy,dz,x,y,z,q
+
+[DESIGN]
+# Maximum number of locals for function / method body
+max-locals=35
+
+[MESSAGES CONTROL]
+disable=W0212,W0511,W0235,E0401,R0904,R0801,C0415
